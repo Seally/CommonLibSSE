@@ -56,6 +56,11 @@ namespace RE
 			inline constexpr REL::ID Vtbl(static_cast<std::uint64_t>(208725));
 		}
 
+		namespace BaseExtraList
+		{
+			inline constexpr REL::ID Vtbl(static_cast<std::uint64_t>(422045));
+		}
+
 		namespace BGSFootstepManager
 		{
 			inline constexpr REL::ID Singleton(static_cast<std::uint64_t>(401262));

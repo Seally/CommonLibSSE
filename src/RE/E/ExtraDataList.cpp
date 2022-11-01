@@ -19,6 +19,12 @@
 
 namespace RE
 {
+	BaseExtraList::BaseExtraList()
+	{
+		REL::Relocation<std::uintptr_t> vtbl{ Offset::BaseExtraList::Vtbl };
+		((std::uintptr_t*)this)[0] = vtbl.address();
+	}
+
 	bool BaseExtraList::PresenceBitfield::HasType(std::uint32_t a_type) const
 	{
 		const std::uint32_t index = (a_type >> 3);

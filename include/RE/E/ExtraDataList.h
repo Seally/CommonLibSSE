@@ -28,7 +28,8 @@ namespace RE
 		};
 		static_assert(sizeof(PresenceBitfield) == 0x18);
 
-		virtual ~BaseExtraList();  // 00
+		BaseExtraList();
+		virtual ~BaseExtraList() = default;  // 00
 
 		// members
 		BSExtraData*      data = nullptr;      // 08
