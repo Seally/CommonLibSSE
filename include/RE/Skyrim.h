@@ -1046,6 +1046,7 @@
 #include "RE/S/SmithingMenu.h"
 #include "RE/S/SneakHandler.h"
 #include "RE/S/SoulLevels.h"
+#include "RE/S/SoulsTrapped.h"
 #include "RE/S/SoundLevels.h"
 #include "RE/S/SpellItem.h"
 #include "RE/S/SprintHandler.h"
