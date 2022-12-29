@@ -573,6 +573,11 @@ namespace RE
 			inline constexpr REL::ID Vtbl(static_cast<std::uint64_t>(208733));
 		}
 
+		namespace SoulsTrapped
+		{
+			inline constexpr REL::ID GetEventSource(static_cast<std::uint64_t>(38873));
+		}
+
 		namespace SprintHandler
 		{
 			inline constexpr REL::ID Vtbl(static_cast<std::uint64_t>(208717));
