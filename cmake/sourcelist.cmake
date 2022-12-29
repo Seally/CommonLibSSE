@@ -1048,6 +1048,7 @@ set(SOURCES
 	include/RE/S/SmithingMenu.h
 	include/RE/S/SneakHandler.h
 	include/RE/S/SoulLevels.h
+	include/RE/S/SoulsTrapped.h
 	include/RE/S/SoundLevels.h
 	include/RE/S/SpellItem.h
 	include/RE/S/SprintHandler.h
@@ -1427,6 +1428,7 @@ set(SOURCES
 	src/RE/S/Setting.cpp
 	src/RE/S/Sky.cpp
 	src/RE/S/SkyrimVM.cpp
+	src/RE/S/SoulsTrapped.cpp
 	src/RE/S/Stack.cpp
 	src/RE/S/StackFrame.cpp
 	src/RE/S/Stream.cpp
