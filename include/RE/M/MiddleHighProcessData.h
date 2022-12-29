@@ -299,7 +299,7 @@ namespace RE
 		bool                                           beenAttacked;                // 322
 		bool                                           unk323;                      // 323
 		bool                                           unk324;                      // 324
-		bool                                           unk325;                      // 325
+		bool                                           soulTrapped;                 // 325
 		bool                                           unk326;                      // 326
 		bool                                           unk327;                      // 327
 		bool                                           unk328;                      // 328
